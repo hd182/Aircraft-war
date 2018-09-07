@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartGame" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_jpg" width="480" height="800"/>
+	<e:Button id="start_btn" label="" x="127.53" y="570.3" anchorOffsetX="0" width="224.94" anchorOffsetY="0" height="86.94">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_start_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="f1_png" x="373.33" y="347.17" anchorOffsetX="0" width="106.67" anchorOffsetY="0" height="105.67"/>
+	<e:Image source="f2_png" x="96" y="224"/>
+</e:Skin>
